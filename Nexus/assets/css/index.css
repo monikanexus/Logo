@@ -1,0 +1,414 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-box{   
+    width: 85%;
+    height: 140vh;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 100px; 
+    margin-bottom: 70px; 
+    border-radius: 4px;
+    box-shadow: rgba(56, 7, 169, 0.384) 0px 20px 30px 10px;               
+}
+.logo{
+    width: 15%;
+    border-radius: 30px;
+    height: auto;
+}
+.first-text{
+    color: #9a0e80;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.second-text{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.third-text{
+    font-size: 20px;
+}
+.head-text{
+    color: #9a0e80;
+    margin: 20px;
+}
+.icon{
+    float: right;
+    padding: 5px;
+    width: 9%;
+    height: 9vh;
+    text-align: center;
+    border-radius: 50px;    
+}
+
+.labels{
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 40px;
+    padding: 5px;
+}
+
+.labels2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.whatsapp{
+    position: relative;
+    display: inline-block;
+    cursor: pointer; 
+    margin: 10px;   
+}
+
+.whatsapp .Svg {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BA94D1;  
+}
+
+.whatsapp span {
+    position: absolute;
+    bottom: -30px;
+    left: 15%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+}
+
+.whatsapp:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+ /* fb */
+
+ .facebook{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;  
+    margin: 10px;     
+}
+
+.facebook .Svg {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BA94D1;  
+}
+
+.facebook span {
+    position: absolute;
+    bottom: -30px;
+    left: 15%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+}
+
+.facebook:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+/* insta */
+
+.instagram{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;  
+    margin: 10px;     
+}
+
+.instagram .Svg {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BA94D1; 
+}
+
+.instagram span {
+    position: absolute;
+    bottom: -30px;
+    left: 15%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+}
+
+.instagram:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+ 
+/* x */
+
+.twitter{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;  
+    margin: 10px;     
+}
+
+.twitter .Svg {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BA94D1; 
+}
+
+.twitter span {
+    position: absolute;
+    bottom: -30px;
+    left: 15%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+}
+
+.twitter:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+ 
+ 
+/* linkedin */
+
+.linkedin{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;  
+    margin: 10px;     
+}
+
+.linkedin .Svg {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BA94D1; 
+}
+
+.linkedin span {
+    position: absolute;
+    bottom: -30px;
+    left: 15%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+}
+
+.linkedin:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* 2nd row */
+
+.labels3{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+/* website */
+
+.website{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;  
+    margin: 10px;     
+}
+
+.website .Svg {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BA94D1; 
+}
+
+.website span {
+    position: absolute;
+    bottom: -30px;
+    left: 15%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+}
+
+.website:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+/* yt */
+
+.youtube{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;  
+    margin: 10px;     
+}
+
+.youtube .Svg {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BA94D1; 
+}
+
+.youtube span {
+    position: absolute;
+    bottom: -30px;
+    left: 15%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+}
+
+.youtube:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+/* pinterest */
+
+.pinterest{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;  
+    margin: 10px;     
+}
+
+.pinterest .Svg {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BA94D1; 
+}
+
+.pinterest span {
+    position: absolute;
+    bottom: -30px;
+    left: 15%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+}
+
+.pinterest:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* snapchat */
+
+.snapchat{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;  
+    margin: 10px;     
+}
+
+.snapchat .Svg {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #BA94D1; 
+}
+
+.snapchat span {
+    position: absolute;
+    bottom: -30px;
+    left: 15%;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+}
+
+.snapchat:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width:600px) {
+    .main-box{
+        width:auto;
+        height: auto;
+        margin: 10px;        
+    }
+    .logo{
+        width: 30%;      
+    }   
+    .first-text{
+         color: #9a0e80;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .icon{
+        float: right;
+        padding: 5px;
+        width: 9%;
+        height: 9vh;
+        margin-right: 20px;
+        text-align: center;
+        border-radius: 50px;        
+    }  
+    .labels{
+        display: grid; 
+        width: 90%;       
+        margin: 10px;
+    }
+    .Svg{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #a27b9b5b;
+    }
+    .labels3{
+        display: grid;
+        width: 90%;
+        justify-content: space-around;
+        margin: 10px;
+    }   
+     
+}
+
+@media screen and (min-width:650px)  {
+
+    .main-box{   
+        width: 85%;
+        height: auto;
+        padding: 10px;
+        margin-top: 100px;
+        margin-left: 80px; 
+        margin-bottom: 70px; 
+        border-radius: 4px;
+        box-shadow: rgba(56, 7, 169, 0.384) 0px 20px 30px 10px;               
+    }
+
+    .labels{
+        display: flex; 
+         margin: 10px;
+    }
+   
+    .labels3{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    } 
+    
+}
+
+
